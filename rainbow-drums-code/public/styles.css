@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f59e9b;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  font-size: 4rem;
+  padding-top: 4%;
+}
+
+.set-container {
+  margin: 2% auto;
+  padding: 2%;
+  border-radius: 5px;
+  background: #7be1e1;
+  border: 3px solid black;
+}
+
+.ui-container {
+  margin: 1% auto;
+  border-radius: 5px;
+  background: white;
+  border: 3px solid black;
+}
+.play-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.play {
+  padding: 2%;
+}
+
+.crash {
+  background-color: #ee4747;
+}
+
+.kick-bass {
+  background-color: #f57d2e;
+}
+
+.snare {
+  background-color: #ece254;
+}
+
+.tom-1 {
+  background-color: #5cc75c;
+}
+
+.tom-2 {
+  background-color: #34a3c5;
+}
+
+.tom-3 {
+  background-color: #722ba1;
+}
+
+.tom-4 {
+  background-color: #ee82ee;
+}
+
+.pressed {
+  box-shadow: 2px 3px 4px 2px #667ece;
+}
+
+.drum {
+  outline: none;
+  border: 5px solid #f1eeee;
+  color: #ffffff;
+  border-radius: 50px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.drum:hover,
+.record-button:hover {
+  background-color: #e4e3e3;
+}
+
+.tempo,
+.volume {
+  padding: 2%;
+}
+
+.tempo-slider,
+.volume-slider {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 15px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  width: 100px;
+}
+
+.tempo-slider:hover,
+.volume-slider:hover {
+  opacity: 1;
+}
+
+.tempo-slider::-webkit-slider-thumb,
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #62cccc;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.tempo-slider::-moz-range-thumb,
+.volume-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #62cccc;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+@keyframes soundPlaying {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
