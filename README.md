@@ -1,7 +1,7 @@
-#### Abstract
-
 **_Link to the website:_**
 https://rainbow-drums.herokuapp.com/
+
+#### Abstract
 
 Rainbow drums is an online drum machine for kids. Each color represents a different common drum sound like for example kick or snare. By pressing buttons kids can mix a track, which is then played in the loop. It is also possible to change the tempo and the loudness of the track!
 
