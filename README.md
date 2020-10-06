@@ -114,11 +114,3 @@ Other ideas for future work:
 - different visual representation, similar to this amazing website https://soundscape.world/
 
 - some fancy machine learning that can help you create good tracks
-
--
-
-#### Lessons Learned
-
-"Sometimes when you get stuck on one problem for days, just skip it and move forward. Come back to it in the end if you have time."
-
-Ellina Nurmukhametova
